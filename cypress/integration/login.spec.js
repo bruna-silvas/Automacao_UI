@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-context('Funcionalidade Login', () => {
+describe('Funcionalidade Login', () => {
 
     beforeEach(() => {
         cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/')
